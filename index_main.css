@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.block1
+{
+    background-color: aquamarine;
+    width: 320px;
+    height: 480px;
+    
+    
+}
+
+
+
+.block2
+{
+    background-color: aliceblue;
+    width: 300px;
+    height: 460px;
+    
+    
+}
+
+
+
+.block3
+{
+    background-color: aquamarine;
+    width: 280px;
+    height: 440px;
+    
+    
+}
+
+
+
+.block4
+{
+    background-color: aliceblue;
+    width: 260px;
+    height: 420px;
+    
+    
+}
+
+
+
+
+
+.everything 
+{
+    display: block;
+    background-color: darkcyan;
+    width: 320px;
+    height: auto;
+    margin: auto;
+    
+}
+
+
+
+.photos
+{
+    
+    background-color: aliceblue;
+    width: 75%;
+    margin: auto;
+    
+   
+    
+    
+    
+}
+
+
+
+
+.image
+{
+    display: inline-block;
+    min-height: 50px;
+    
+    max-width: 45%;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+.landscape
+{
+    
+    background-color: darkgray;
+    max-width: 480px;
+    height: auto;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px)
+{
+	.lrgphoto {
+		background-image: url(header3also.jpg);
+		
+		
+	}
+	
+	
+	.navbar {
+		height: auto;
+	}
+	
+	.navitem {
+		display: block;
+	}
+	
+	.pad {
+		display: none;
+	}
+	
+}
+
+
+@media only screen and (max-width: 600px)
+{
+	.lrgphoto {
+		background-image: url(header1_581also.jpg);
+		
+		
+	}
+}
